@@ -1,0 +1,92 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.app{
+  height: 100vh;
+  
+  width: 100vw;
+  background-color: black; 
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wizard-container{
+  /* width: 12em; */
+  padding: 10px 20px;
+  border: 2px solid white;
+  border-radius: 5%;
+}
+label{
+  width: 150px;
+  display: inline-block;
+  margin: 1rem;
+  font-size: 16px;
+  font-weight: bold;
+  /* border: 2px solid blue; */
+}
+input{
+  background-color: transparent;
+  color: white;
+  outline: none;
+  border: 2px solid white;
+  padding: .2rem .5rem;
+  border-radius: 10px;
+  width: 200px;
+  height: 30px;
+}
+
+
+
+
+.wizard-container >div, form{
+  margin: 2rem 1.5rem;
+  border: 2px solid white;
+  border-radius: 5%;
+  padding: 2rem;
+}
+.wizard-container section{
+  display: flex;
+  margin-top: 2rem;
+  justify-content: space-between;
+}
+.wizard-container button{
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+  padding: .2rem .6rem;
+  border-radius: 6px;
+}
+.wizard-container button:hover{
+  box-shadow: 0px 0px 5px 5px rgb(31, 31, 31);
+}
+.wizard-container p{
+  text-align: center;
+}
+
+.user-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.data-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.data-row label {
+  width: 150px;
+  /* Adjust width as needed */
+}
+
+.data-row span {
+  flex: 1;
+  border: 2px solid white;
+  border-radius: 10px;
+  padding: .5rem 1rem;
+}
+
+
